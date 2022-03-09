@@ -183,6 +183,7 @@ background: #e0e0ff0f;
     display: inline-block;
     position: relative;
     margin-top: 2px;
+    margin-bottom: 8px;
 >div {
     display: flex;
     align-items: center;
@@ -216,7 +217,7 @@ rgba(88, 101, 242, 0.12);
 border: 3px solid 
 #5865f2;
 padding: 7px 21px;       
-margin-bottom: 2px;    
+margin-bottom: 10px;    
         &::before {
             top: -2px;
         }
@@ -226,7 +227,7 @@ margin-bottom: 2px;
         #5865f2;
 padding: 10px 22px 8px 22px;
 margin-top: 2px;
-margin-bottom: -2px;  
+margin-bottom: 6px;  
 &::before {
     top: -4px;
 }
@@ -259,8 +260,9 @@ color:
     display: inline-block;
     position: relative;
     margin-top: 2px;
-
+margin-bottom: 8px;
     font-size: 16px;
+    height: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     transition: .25s margin, .25s padding, .25s height, .25s width, 0s border;    line-height: 1.75;
@@ -279,7 +281,7 @@ color:
   
     &:hover {
 margin-top: 0;
-margin-bottom: 2px;
+margin-bottom: 10px;
 border: 3px solid #ff5e00;
 padding: 7px 21px;    
  
@@ -289,7 +291,7 @@ padding: 7px 21px;
         
     }
     &:active {
-        margin-bottom: -2px;
+        margin-bottom: 8px;
         border: 2px solid #ff5e00;
 padding: 10px 22px 8px 22px;
 margin-top: 2px;
@@ -348,7 +350,7 @@ margin-bottom: 2px;
     &:active {
 padding: 12px 24px 10px 24px;
 margin-top: 2px;
-margin-bottom: -2px;
+margin-bottom: 0px;
 &::before {
     top: -2px;
 }
